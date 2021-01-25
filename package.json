@@ -1,0 +1,46 @@
+{
+  "name": "mern-react-times-api.v2",
+  "version": "1.0.0",
+  "description": "API for React Times project. Made with Node, Express, Passport.js and tested with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f .env nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urlDev/mern-react-times-api.v2.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "passport.js",
+    "jest"
+  ],
+  "author": "Can Ural",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/urlDev/mern-react-times-api.v2/issues"
+  },
+  "homepage": "https://github.com/urlDev/mern-react-times-api.v2#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.2"
+  }
+}
